@@ -8,6 +8,8 @@ import Message from './components/Message';
 import CardDetails from './components/CardDetails';
 import Container from './components/Container';
 
+import ReactPlayer from 'react-player'
+
 function App() {
 
   const user1 = {
@@ -46,6 +48,8 @@ function App() {
       <Container>
         <h2>Patata</h2>
       </Container>
+
+      <ReactPlayer url='https://youtu.be/dQw4w9WgXcQ' controls={true}/>
 
     </div>
   );
